@@ -409,3 +409,53 @@ section {
 .special__btn {
   width: 39%;
 }
+
+/* -------- Top Dishes --------- */
+.top__dishes__container h2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.top__dish__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.top__dish__card {
+  display: flex;
+  gap: 1rem;
+  background: var(--secondary-color);
+  max-height: 90%;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.top__dish--details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top__dish--details h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--heading-color);
+}
+
+.top__dish--details span {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.top__dish--details img {
+  width: 60%;
+}
+
+.top__dish--img {
+  width: 50%;
+  overflow: hidden;
+  border-radius: 1rem;
+}
