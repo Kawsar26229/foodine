@@ -359,10 +359,6 @@ section {
   place-items: center;
 }
 
-.special__container--left:hover .special__img {
-  margin-top: -8rem;
-}
-
 .special__container--left--col {
   max-width: 70%;
   background: var(--secondary-color);
@@ -374,7 +370,6 @@ section {
   height: 30vh;
   overflow: hidden;
   border-radius: 1rem;
-  transition: var(--transition);
 }
 
 .special__container--left--col h3 {
