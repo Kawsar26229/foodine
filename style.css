@@ -577,3 +577,54 @@ section {
 .event__container--right a {
   width: 31%;
 }
+
+/* ------- Why Us ----- */
+.why__us__container {
+  display: grid;
+  grid-template-columns: 56% 36%;
+  gap: 8%;
+}
+
+.why__us__container--left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.why__us__container--left h2 {
+  font-size: 2.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--heading-color);
+}
+
+.why__us__container--left p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.why__us__container--right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.why__us__card {
+  background-color: var(--secondary-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: grid;
+  place-items: center;
+}
+
+.why__us__card i {
+  font-size: 2.2rem;
+  color: var(--accent-color);
+}
+
+.why__us__card h4 {
+  color: var(--heading-color);
+  font-size: 1rem;
+}
