@@ -458,4 +458,68 @@ section {
   width: 50%;
   overflow: hidden;
   border-radius: 1rem;
+  transition: var(--transition);
+}
+
+.top__dish__card:hover .top__dish--img {
+  order: 2;
+}
+
+/* -------- Discount Meals ------- */
+.discount__container {
+  display: grid;
+  grid-template-columns: 58% 38%;
+  gap: 4%;
+  background-color: var(--secondary-color);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.discount__container--left {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.discount__img img {
+  border-radius: 1rem;
+}
+
+.discount__container--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(images/foodine.svg);
+  background-position: 12.5rem 5rem;
+  background-repeat: no-repeat;
+  background-size: 15rem 15rem;
+}
+
+.discount__container--right h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.discount__container--right h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.discount__container--right h4:not(:first-child) {
+  margin: 0.5rem 0;
+}
+
+.original__price {
+  text-decoration: line-through;
+  margin-right: 0.5rem;
+}
+
+.discount__container--right img {
+  width: 30%;
+  margin-bottom: 1rem;
+}
+
+.discount__container--right label {
+  width: 31%;
 }
