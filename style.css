@@ -628,3 +628,71 @@ section {
   color: var(--heading-color);
   font-size: 1rem;
 }
+
+/* --------- Review --------- */
+.review--title {
+  font-size: 2.2rem;
+  color: var(--heading-color);
+  font-weight: 500;
+  width: var(--container-width-lg);
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.review__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+}
+
+.reviews h2 {
+  font-size: 3rem;
+  color: var(--text-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.reviews__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.review__card img {
+  width: 30%;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+}
+
+.review__card p {
+  margin: 1rem 0;
+  color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.reviewer {
+  color: rgb(150, 149, 146) !important;
+}
+
+.review__container--right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.gallery {
+  overflow: hidden;
+}
+
+.gallery img {
+  height: 100%;
+  filter: saturate(0) brightness(0.5);
+  transition: var(--transition);
+}
+
+.gallery:hover img {
+  filter: saturate(1) brightness(1);
+  transform: scale(1.1);
+}
