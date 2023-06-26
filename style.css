@@ -924,3 +924,12 @@ footer {
 .meals__top__dishes {
   margin-top: 10rem;
 }
+
+/* ========= Contact ======== */
+.contact__container {
+  margin-top: 15rem;
+}
+
+.contact__inquiry__container {
+  margin-top: 10rem;
+}
