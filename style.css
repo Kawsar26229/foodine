@@ -763,6 +763,12 @@ section {
   font-weight: 500;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.newsletter__form input[type="submit"]:hover {
+  background-color: #26643bb5;
 }
 
 /* ------------ Footer ---------- */
