@@ -12,6 +12,7 @@
   --heading-color: #3b413a;
   --text-color: #3f3c3c;
   --button-color: #e8e8e8;
+  --footer--link--color: #767676;
   --container-width-lg: 88%;
   --container-width-md: 92%;
   --transition: all 0.3s ease-in-out;
@@ -69,6 +70,13 @@ h4 {
   font-size: 1.2rem;
   font-weight: 500;
   color: var(--heading-color);
+}
+
+h5 {
+  color: var(--heading-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 a {
@@ -753,4 +761,33 @@ section {
   font-weight: 500;
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+}
+
+/* ------------ Footer ---------- */
+footer {
+  background-color: var(--secondary-color);
+}
+
+.footer__container {
+  margin-top: 160vh;
+  padding: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+.logo__col h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.logo__col .nav__socials {
+  margin-bottom: 1rem;
+}
+
+.logo__col p {
+  font-size: 0.9rem;
+  font-weight: 300;
 }
