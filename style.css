@@ -933,3 +933,61 @@ footer {
 .contact__inquiry__container {
   margin-top: 10rem;
 }
+
+/* ======= About ====== */
+.about__container {
+  margin-top: 15rem;
+}
+
+.story__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.story__container img {
+  border-radius: 0.5rem;
+}
+
+.story__container__details h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  color: var(--heading-color);
+  margin-bottom: 0.5rem;
+}
+
+.story__container__details p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* -------- Our Goals ----- */
+.goals__container {
+  margin-top: 10rem;
+  max-width: 60vw;
+  text-align: center;
+}
+
+.goals__container h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  color: var(--heading-color);
+  margin-bottom: 0.5rem;
+}
+
+.goals__container p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.our__goal__gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.our__goal__gallery figure:nth-child(1) {
+  grid-row: 1 / 3;
+}
