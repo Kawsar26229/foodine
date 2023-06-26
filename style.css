@@ -854,3 +854,68 @@ footer {
   font-weight: 500;
   cursor: pointer;
 }
+
+/* =========== MEALS ========= */
+
+.meals__section__container {
+  margin-top: 8rem;
+}
+
+.meals__section__container h2 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 5rem;
+  color: var(--heading-color);
+}
+
+.meals__section__container h4 {
+  font-size: 1.5rem;
+  color: var(--heading-color);
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.special__meals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.special__meal {
+  background-color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.special__meal img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.special__meals__details h2 {
+  margin-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.special__meals__details--price {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--accent-color);
+}
+
+.special__meals__details--text {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 0.5rem;
+}
+
+.special__meals__details img {
+  width: 40%;
+}
