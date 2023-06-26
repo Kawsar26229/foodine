@@ -696,3 +696,61 @@ section {
   filter: saturate(1) brightness(1);
   transform: scale(1.1);
 }
+
+/* -------- Newsletter ------- */
+.newsletter__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  background-color: var(--accent-color-varient);
+  padding: 3rem;
+  border-radius: 0.5rem;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.newsletter h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin-bottom: 1rem;
+}
+
+.newsletter p {
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+.newsletter__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter__form input[type="text"] {
+  background-color: var(--primary-color);
+  border-radius: 0.2rem;
+  padding: 1rem;
+  width: 25vw;
+  height: 10vh;
+  font-family: inherit;
+  font-size: 1.2rem;
+}
+
+.newsletter__form input[type="text"]::placeholder {
+  font-size: 1.2rem;
+}
+
+.newsletter__form input[type="submit"] {
+  padding: 1.3rem 2.5rem;
+  background-color: var(--accent-color);
+  color: var(--button-color);
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
