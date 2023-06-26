@@ -870,9 +870,9 @@ footer {
 }
 
 .meals__section__container h4 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: var(--heading-color);
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 1rem;
 }
 
@@ -918,4 +918,9 @@ footer {
 
 .special__meals__details img {
   width: 40%;
+}
+
+/* --------- Top Dishes ------- */
+.meals__top__dishes {
+  margin-top: 10rem;
 }
